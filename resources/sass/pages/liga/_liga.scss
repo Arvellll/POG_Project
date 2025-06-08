@@ -1,0 +1,145 @@
+
+.card-side{
+        display: flex;
+        gap: 25px;
+        .KARTU{
+            width: 70%;
+        }
+   
+
+    }
+
+     .kartu-score{
+            width: 90%;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            justify-content: center;
+            padding: 10px 20px 20px;
+            background-image: url('/public/assets/match-card-bg.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            h4{
+                    color: #FFF;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            p,h2,h6,h4{
+                margin: 0;
+            }
+            .judul-atas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 8px;
+                border-radius: 5px;
+                background: #E62129;
+                padding: 5px 40px;
+
+                p{
+                    color: #FFF;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 20px; /* 142.857% */
+                }
+            }
+
+            .match-card-content{
+               
+                .match-inner{
+                
+                    h2{
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        background: rgba(68, 140, 233, 0.50);
+                        display: flex;
+                        padding: 5px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                    }
+
+                
+                    .match-inner-center{
+                       display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        text-align: center;
+                        align-items: center;
+                        gap: 15px;
+                        
+                        h6{
+                            color: #FFF;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            border-radius: 16.529px;
+                            background: #F05D55;
+                            padding: 8.264px 16.529px;
+                        }
+                        span{
+                            color: #FFF;
+                            text-align: center;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                    }
+                    
+                }
+            }
+        }
+.white-card{
+    width: 100%;
+    ul.nav{
+        width: 100%;  
+    }
+
+    .nav-tabs {
+        display: flex;
+        gap: 7px;
+        border-bottom: none;
+        border-radius: 5px;
+        border: 1px solid var(--Neutral-02, #EDF0F3);
+        background: #F2F2F2;
+        padding: 12px 20px;
+        
+        .nav-item {
+            padding: 0;
+            width: 49.5%;
+            
+            .nav-link {
+            width: 100%;
+            color: #818489;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px; /* 142.857% */
+            padding: 12px 40px;
+            &.active {
+                background-color: #448CE9;
+                color: #fff;
+                border-radius: 5px;
+            }
+
+            &:hover {
+                background-color: #448CE9;
+                color: #fff;
+                border-radius: 5px;
+            }
+            }
+        }
+    }
+}
+

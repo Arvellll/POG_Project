@@ -1,0 +1,91 @@
+
+.sidebar{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 30px;
+    position: fixed;
+    z-index: 100;
+    width: 380px;
+    
+    .sidebar-inner{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: left;
+        
+       
+        .logo-img{
+            justify-content: center;
+            display: flex;
+        }
+        .list-sidebar-inner{
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            gap: 20px;
+            border-top: 0.5px solid #DEDEDE;
+            
+            a{
+                text-decoration: none;
+                color: var(--Neutral-04, #B0B3B8);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+                display: flex;
+                gap: 16px;
+                padding: 8px 12px;
+                .active-side{
+                    display: none !important;
+                }
+                &:hover,&.active{
+                    color: var(--White, #FCFCFD);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    border-radius: 8px;
+                    background: #E62129;
+                    padding: 8px 12px;
+                    
+                    .active-side{
+                        display: block !important;
+                    }
+                    .side-biasa{
+                        display: none;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .logout{
+        align-items: start;
+        border-top: 0.5px solid #dedede;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        cursor: pointer;
+        a{
+            display: flex;
+            gap: 15px;
+            justify-content: space-between !important;
+            align-items: center;
+            text-decoration: none;
+
+            color: #000;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 120% */
+            p{
+                margin: 0;
+            }
+
+        }
+
+    }
+}

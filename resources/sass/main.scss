@@ -1,0 +1,42 @@
+//pages
+
+//login
+@use './pages/login/login';
+
+//dashboard
+@use './pages/dashboard/dashboard';
+
+//liga
+@use './pages/liga/liga';
+
+//team
+@use './pages/team/team';
+
+//scoreboard
+@use './pages/scoreboard/scoreboard';
+
+
+
+//components
+
+//sidebar
+@use './components/sidebar';
+
+//header
+@use './components/header';
+
+//card
+@use './components/card';
+
+//search
+@use './components/search';
+
+//datatables
+@use './components/datatables';
+
+//logout
+@use './components/logout';
+
+@use './components/modal';
+
+
