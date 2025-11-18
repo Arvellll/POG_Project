@@ -95,7 +95,11 @@
                 border-radius: 1200000.125px;
                 border: 0.267px solid #D3D7DB;
                 background: #F9F9F9;
-            }
+                -webkit-border-radius: 1200000.125px;
+                -moz-border-radius: 1200000.125px;
+                -ms-border-radius: 1200000.125px;
+                -o-border-radius: 1200000.125px;
+}
         }
 
         .contentt{
